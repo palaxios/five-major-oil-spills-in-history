@@ -1,6 +1,7 @@
 body{
 	background: #F0F0F5;
 	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
 }
 .bottom-container{
 	width: 800px;
@@ -31,7 +32,7 @@ body{
 .container{
 	width: 800px;
 	height: 600px;
-	padding: 10px;
+	padding:  10px 10px 5px 10px;
 	margin: 0 auto;
 	margin-top: 10px;
 	border: 1px solid black;
@@ -142,35 +143,32 @@ ul li a:hover{
 }
 
 .wrap {
-	perspective: 800px;
-	perspective-origin: 50% -50px;
-	-webkit-perspective: 800px;
-	-webkit-perspective-origin: 100% -50px;
-	-moz-perspective: 800px;
-	-moz-perspective-origin: 50% -50px;
-	-ms-perspective: 800px;
-	-ms-perspective-origin: 50% -50px;
-
-
+	perspective: 1000px;
+	perspective-origin: 68% 68%;
+	-webkit-perspective: 1000px;
+	-webkit-perspective-origin: 68% 68%;
+	-moz-perspective: 1000px;
+	-moz-perspective-origin: 68% 68%;
+	-ms-perspective: 1000px;
+	-ms-perspective-origin: 68% 68%;
 
 }
 
 .cube {
-
- 	-webkit-transition:width 2s, height 2s, -webkit-transform 2s; 
- 	-moz-transition:width 2s, height 2s, -moz-transform 2s;
- 	-ms-transition:width 2s, height 2s, -ms-transform 2s;
-    transition:width 2s, height 2s, transform 2s;
+ 	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+ 	-moz-transition: width 2s, height 2s, -moz-transform 2s;
+ 	-ms-transition: width 2s, height 2s, -ms-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
     -webkit-transform-style: preserve-3d;	
 	-moz-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
 
-.cube div {
+.cube div{
 	position: absolute;
-	top:219px;
-	left:54px;
+	top: 227px;
+	left: 54px;
 	display:block;
 	width: 100px;
 	height: 100px;
@@ -201,35 +199,35 @@ ul li a:hover{
 }
 
 .left {
-	-webkit-transform:rotateY(270deg) translateX(-50px);
+	-webkit-transform: rotateY(270deg) translateX(-50px);
 	-webkit-transform-origin: center left;
-	-moz-transform:rotateY(270deg) translateX(-50px);
+	-moz-transform: rotateY(270deg) translateX(-50px);
 	-moz-transform-origin: center left;
-	-ms-transform:rotateY(270deg) translateX(-500px);
+	-ms-transform: rotateY(270deg) translateX(-500px);
 	-ms-transform-origin: center left;
-	transform:rotateY(270deg) translateX(-50px);
+	transform: rotateY(270deg) translateX(-50px);
 	transform-origin: center left;
 }
 
 .right {
-	-webkit-transform:rotateY(-270deg) translateX(50px);
+	-webkit-transform: rotateY(-270deg) translateX(50px);
 	-webkit-transform-origin: top right;
-	-moz-transform:rotateY(-270deg) translateX(50px);
+	-moz-transform: rotateY(-270deg) translateX(50px);
 	-moz-transform-origin: top right;
-	-ms-transform:rotateY(-270deg) translateX(50px);
+	-ms-transform: rotateY(-270deg) translateX(50px);
 	-ms-transform-origin: top right;
-	transform:rotateY(-270deg) translateX(50px);
+	transform: rotateY(-270deg) translateX(50px);
 	transform-origin: top right;
 }
 
 .top {
-	-webkit-transform:rotateX(-270deg) translateY(-50px);
+	-webkit-transform: rotateX(-270deg) translateY(-50px);
 	-webkit-transform-origin: left top;
-	-moz-transform:rotateX(-270deg) translateY(-50px);
+	-moz-transform: rotateX(-270deg) translateY(-50px);
 	-moz-transform-origin: left top;
-	-ms-transform:rotateX(-270deg) translateY(-50px);
+	-ms-transform: rotateX(-270deg) translateY(-50px);
 	-ms-transform-origin: left top;
-	transform:rotateX(-270deg) translateY(-50px);
+	transform: rotateX(-270deg) translateY(-50px);
 	transform-origin: left top;
 }
 
@@ -245,38 +243,38 @@ ul li a:hover{
 }
 
 .cube.show-1991cube{
-  	-webkit-transform: translate3d(384px,-567px,-310px)scale3d(2.8,2.8,7);
-  	-moz-transform: translate3d(384px,-567px,-310px)scale3d(2.8,2.8,7);
-  	-ms-transform: translate3d(384px,-567px,-310px)scale3d(2.8,2.8,7);
-    transform: translate3d(384px,-567px,-310px)scale3d(2.8,2.8,7);
+  	-webkit-transform: translate3d(445px, -689px, -200px)scale3d(3.2,3.2,3.2);
+  	-moz-transform: translate3d(445px, -689px, -200px)scale3d(3.2,3.2,3.2);
+  	-ms-transform: translate3d(445px, -689px, -200px)scale3d(3.2,3.2,3.2);
+    transform: translate3d(445px, -689px, -200px)scale3d(3.2,3.2,3.2);
 }
 
 .cube.show-2010cube{
-  	-webkit-transform: translate3d(354px,-519px,-271px)scale3d(2.8,2.8,4.2);
-  	-moz-transform: translate3d(354px,-519px,-271px)scale3d(2.8,2.8,4.2);
-  	-ms-transform: translate3d(354px,-519px,-271px)scale3d(2.8,2.8,4.2);
-    transform: translate3d(354px,-519px,-271px)scale3d(2.8,2.8,4.2);
+  	-webkit-transform: translate3d(353px, -551px, -200px)scale3d(2.8,2.8,2.8);
+  	-moz-transform: translate3d(353px, -551px, -200px)scale3d(2.8,2.8,2.8);
+  	-ms-transform: translate3d(353px, -551px, -200px)scale3d(2.8,2.8,2.8);
+    transform: translate3d(353px, -551px, -200px)scale3d(2.8,2.8,2.8);
 }
 
 .cube.show-1988cube{
-  	-webkit-transform: translate3d(80px,-107px,-200px)scale3d(1.6,1.6,1.6);
-    -moz-transform: translate3d(80px,-107px,-200px)scale3d(1.6,1.6,1.6);
-    -ms-transform: translate3d(80px,-107px,-200px)scale3d(1.6,1.6,1.6);
-    transform: translate3d(80px,-107px,-200px)scale3d(1.6,1.6,1.6);
+  	-webkit-transform: translate3d(75px, -138px, -200px) scale3d(1.6,1.6,1.6);
+    -moz-transform: translate3d(75px, -138px, -200px) scale3d(1.6,1.6,1.6);
+    -ms-transform: translate3d(75px, -138px, -200px) scale3d(1.6,1.6,1.6);
+    transform: translate3d(75px, -138px, -200px) scale3d(1.6,1.6,1.6);
 }
 
 .cube.show-1980cube{
-  	-webkit-transform: translate3d(286px,-416px,-200px)scale3d(2.5,2.5,2.5);
-    -moz-webkit-transform: translate3d(286px,-416px,-200px)scale3d(2.5,2.5,2.5);
-    -ms-webkit-transform: translate3d(286px,-416px,-200px)scale3d(2.5,2.5,2.5);
-    transform: translate3d(286px,-416px,-200px)scale3d(2.5,2.5,2.5);
+  	-webkit-transform: translate3d(283px, -448px, -200px)scale3d(2.5,2.5,2.5);
+    -moz-transform: translate3d(283px, -448px, -200px)scale3d(2.5,2.5,2.5);
+    -ms-transform: translate3d(283px, -448px, -200px)scale3d(2.5,2.5,2.5);
+    transform: translate3d(283px, -448px, -200px)scale3d(2.5,2.5,2.5);
 }
 
 .cube.show-1979cube{
-	-webkit-transform: translate3d(172px,-243px,-200px)scale3d(2,2,2);
-    -moz-transform: translate3d(172px,-243px,-200px)scale3d(2,2,2);
-    -ms-transform: translate3d(172px,-243px,-200px)scale3d(2,2,2);
-    transform: translate3d(172px,-243px,-200px)scale3d(2,2,2);
+	-webkit-transform: translate3d(167px, -276px, -200px) scale3d(2,2,2);
+    -moz-transform: translate3d(167px, -276px, -200px) scale3d(2,2,2);
+    -ms-transform: translate3d(167px, -276px, -200px) scale3d(2,2,2);
+    transform: translate3d(167px, -276px, -200px) scale3d(2,2,2);
 }
 
 #name-of-countries{
@@ -345,10 +343,36 @@ ul li a:hover{
 
 footer p{
 	font-size: 6pt;
-	text-align: center;
 	padding-top: 6px;
 	color: white;
+	text-decoration: none;
+	text-align: right;
 }
+footer p a{
+	color: white;
+	text-decoration: none;
+}
+
+.git_hub{
+	vertical-align: middle; 
+	margin-right: 5px; 
+	width: 25px;
+}
+
+.ft_link{
+	margin-top:10px;
+	font-size:14px;
+}
+
+.ft_link a{
+	color: #555555; 
+	text-decoration: none;
+}
+
+
+
+
+
 
 
 

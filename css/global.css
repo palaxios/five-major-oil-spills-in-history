@@ -3,13 +3,19 @@ body{
 	font-family: helvetica, arial, sans-serif;
 	font-size: 16px;
 }
+p{
+	line-height: 1.5;
+}
 .bottom-container{
 	width: 800px;
 	padding: 10px;
 	margin: 0 auto;
 	margin-top: 10px;
+	margin-bottom: 50px;
 }
-
+.m_10{
+	margin-bottom: 10px;
+}
 .top-container h1{
 	padding-top: 15px;
 	padding-bottom: 10px;
@@ -34,7 +40,6 @@ body{
 	height: 600px;
 	padding:  10px 10px 5px 10px;
 	margin: 0 auto;
-	margin-top: 10px;
 	border: 1px solid black;
 	border-radius: 2px;
 	background: black;

@@ -11,7 +11,7 @@ p{
 	padding: 10px;
 	margin: 0 auto;
 	margin-top: 10px;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
 }
 .m_10{
 	margin-bottom: 10px;
@@ -314,7 +314,7 @@ ul li a:hover{
 }
 
 .button1-SFX{
-	height:320px;
+	height:328px;
 }
 
 .button2-SFX{
